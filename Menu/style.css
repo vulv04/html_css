@@ -1,0 +1,125 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #f0f5ff, #e6f0fa);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Navbar styles */
+.navbar {
+  background: white;
+  padding: 15px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+  justify-content: space-between;
+}
+
+/* Menu styles */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li {
+  position: relative;
+  padding: 10px 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #0f0f34;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu a:hover {
+  color: #007bff;
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  top: 100%;
+  left: 0;
+  width: 400px;
+  display: flex;
+  gap: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+/* Submenu styles */
+.dropdown-menu .column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.dropdown-menu h4 {
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.dropdown-menu a {
+  font-size: 14px;
+  padding: 8px 0;
+  color: #222;
+  transition: color 0.3s ease-in-out;
+}
+
+.dropdown-menu a:hover {
+  color: #007bff;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: flex;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Authentication buttons */
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.auth-buttons a {
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.login {
+  color: #222;
+}
+
+.signup {
+  background: #0f0f34;
+  color: white;
+}

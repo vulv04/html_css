@@ -3,9 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Menu</title>
+    <title>Dropdown Menu</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    
+    <nav class="navbar">
+      <ul class="menu">
+        <li><a href="#">FRAMEWORK</a></li>
+        <li><a href="#">DEMOS</a></li>
+        <li class="dropdown">
+          <a href="#">RESOURCES</a>
+          <div class="dropdown-menu">
+            <div class="column">
+              <h4>TOP CONTROLS</h4>
+              <a href="#">Grid</a>
+              <a href="#">Chart</a>
+              <a href="#">Controls</a>
+              <a href="#">Financial Chart</a>
+            </div>
+            <div class="column">
+              <h4>TOP CONTROLS</h4>
+              <a href="#">API</a>
+              <a href="#">Blogs</a>
+              <a href="#">Knowledge Base</a>
+              <a href="#">Videos</a>
+              <a href="#">Forums</a>
+              <a href="#">Licensing</a>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">DOCUMENTATION</a></li>
+      </ul>
+      <div class="auth-buttons">
+        <a href="#" class="login">LOG IN</a>
+        <a href="#" class="signup">SIGN UP</a>
+      </div>
+    </nav>
   </body>
 </html>
