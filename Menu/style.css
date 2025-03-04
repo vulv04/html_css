@@ -17,7 +17,7 @@ body {
 /* Navbar styles */
 .navbar {
   background: white;
-  padding: 15px 30px;
+  padding: 30px 30px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -37,6 +37,12 @@ body {
 .menu li {
   position: relative;
   padding: 10px 15px;
+  border: 1px solid transparent;
+}
+.menu li:hover {
+  background-color: #dde1f9;
+  border-radius: 15px;
+  border: 1px solid #dde1f9;
 }
 
 .menu a {
@@ -110,7 +116,7 @@ body {
 
 .auth-buttons a {
   text-decoration: none;
-  padding: 8px 15px;
+  padding: 15px 15px;
   border-radius: 5px;
   font-weight: bold;
 }
@@ -118,8 +124,14 @@ body {
 .login {
   color: #222;
 }
-
 .signup {
+  color: #222;
+}
+.signup:hover {
+  background: #0f0f34;
+  color: white;
+}
+.login:hover {
   background: #0f0f34;
   color: white;
 }
