@@ -63,8 +63,9 @@
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000;
 }
-.banner2 {
+.video {
   margin-top: 63px;
+  width: 100%;
 }
 .footer {
   background-color: #0e4c67;
