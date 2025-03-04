@@ -112,7 +112,7 @@ button:hover {
   display: flex;
   align-items: center;
   gap: 5px;
-  padding: 8px 73px;
+  padding: 0 23px;
   border-radius: 5px;
   font-size: 14px;
   font-weight: 600;
@@ -120,11 +120,11 @@ button:hover {
 }
 
 .add-card {
-  background: #C9C9DA;
+  background: #c9c9da;
 }
 
 .wishlist-cart {
-  background: #C9C9DA;
+  background: #c9c9da;
 }
 
 .add-card:hover {
