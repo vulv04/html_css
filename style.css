@@ -1,12 +1,45 @@
-li{
-    list-style: none;
+/* Reset mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-ul li a{
-    text-decoration: none;
-    color: #000;
-    font-size: 20px;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
 }
-ul li a:hover{
-    background-color: aqua;
+
+ul {
+  list-style: none;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 350px;
+}
+
+ul li {
+  margin: 12px 0;
+}
+
+ul li a {
+  display: block;
+  padding: 12px;
+  background: #007bff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+ul li a:hover {
+  background: #0056b3;
+  transform: scale(1.05);
 }
