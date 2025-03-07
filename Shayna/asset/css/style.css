@@ -103,10 +103,10 @@ nav ul li a:hover::before {
   cursor: pointer;
 }
 .img-banner {
-  width: 50%;
   position: relative;
 }
 .danhgia {
+  flex-wrap: wrap;
   position: absolute;
   background-color: #fff;
   padding: 8px 16px;
@@ -129,7 +129,7 @@ p {
 .play {
   position: absolute;
   top: 50%;
-  left: 93%;
+  left: 100%;
   transform: translate(-50%, -50%);
   background: none;
 }
