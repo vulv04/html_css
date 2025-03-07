@@ -6,7 +6,6 @@
 }
 .container {
   padding: 32px 120px;
-  background: linear-gradient(293deg, #e6e6e4 7.23%, #f0e8e2 97.74%);
 }
 header {
   display: flex;
@@ -173,7 +172,7 @@ p {
   line-height: normal;
   margin-bottom: 10px;
 }
-.tieude h1 {
+.tieude h2 {
   color: var(--black, #1f1d2a);
   text-align: center;
   font-family: Poppins;
@@ -182,6 +181,24 @@ p {
   font-weight: 600;
   line-height: normal;
   margin-bottom: 50px;
+  position: relative;
+}
+.cre {
+  color: #1a1a1a;
+  display: inline-block;
+  position: relative;
+  padding: 5px 10px;
+  font-weight: 600;
+}
+.cre::after {
+  content: "";
+  position: absolute;
+  left: 13px;
+  bottom: 16px;
+  width: 79%;
+  height: 6px;
+  background-color: #9acd72;
+  z-index: -1;
 }
 .user-name {
   border-radius: 0 0 20px 20px;
