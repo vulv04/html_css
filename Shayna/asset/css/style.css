@@ -59,6 +59,12 @@ nav ul li a:hover::before {
   font-weight: 400;
   line-height: normal;
 }
+.sigup:hover {
+  background-color: #18272f;
+  a{
+    color: #fff;
+  }
+}
 
 /*Banner*/
 .banner {
